@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  /* cursor: pointer; */
+}
+.logo {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+
+.logo img {
+  width: 80%;
+  border: 2px solid green;
+  border-radius: 20px;
+}
+
+.nav-list {
+  width: 60%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  /* background-color: black; */
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list li a:hover {
+  color: aqua;
+}
+
+.nav-list li {
+  list-style: none;
+  padding: 26px 30px;
+}
+
+.nav-bar {
+  width: 40%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  /* background-color: black; */
+}
+
+.search {
+  border: 2px solid wheat;
+  border-radius: 25px;
+  height: 25px;
+  width: 300px;
+  margin: auto;
+  color: azure;
+  background: none;
+}
+.search:hover {
+  color: black;
+  background-color: white;
+}
+
+.btn-sm {
+  padding: 5px 30px;
+  border: 2px solid wheat;
+  color: blanchedalmond;
+  font-size: 17px;
+  border-radius: 25px;
+  background: none;
+  cursor: pointer;
+}
+
+.btn-sm:hover {
+  color: white;
+  background-color: blue;
+}
+
+.background {
+  background: rgba(0, 0, 0, 0.7) url("../img/th2.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.fs {
+  height: 100vh;
+}
+
+.background {
+  background: rgba(0, 0, 0, 0.7) url("../img/images.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.fs {
+  height: 104vh;
+
+  background-image: url("../img/th3.png");
+  align-items: center;
+  margin: 100px 300px;
+  border: 3px solid black;
+  border-radius: 25px;
+}
+
+.thirdhalf {
+  /* color: aliceblue; */
+  text-align: center;
+  margin: 70px;
+}
+
+/* ------------ Contact Us --------------- */
+
+.heading {
+  text-align: center;
+  padding: 25px;
+}
+
+.sec-background {
+  background-image: url("../img/images.jpg");
+  height: 170vh;
+}
+
+.para {
+  padding: 25px;
+}
+
+.name {
+  padding: 5px;
+  margin: 5px 50px;
+}
+.names {
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+.email {
+  padding: 5px;
+  margin: 5px 50px;
+}
+.emails {
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+.concern {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+#concerns {
+  
+  border: 2px solid black;
+  border-radius: 6px;
+  height: 140px;
+}
+
+.submit {
+  text-align: center;
+}
+.submits {
+  border: 2px solid black;
+  padding: 3px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.submits:hover{
+ background-color: aquamarine;
+}
